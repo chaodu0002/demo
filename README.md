@@ -1,6 +1,6 @@
 # V2Ray Heroku
 
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/chaoduzj/demo/tree/vless) 分支。**
+**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/chaodu0002/demo/tree/vless) 分支。**
 
 ## 概述
 
@@ -16,7 +16,7 @@
  2. 修改专案名称，注意不要包含 `v2ray` 和 `heroku` 两个关键字（修改后的专案名以 `demo` 为例）
  3. 修改 `README.md`，将 `bclswl0827/v2ray-heroku` 替换为自己的内容（如 `example/demo`）
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/chaoduzj/demo)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/chaodu0002/demo)
 
  4. 回到专案首页，点击上面的链接以部署 V2Ray
 
@@ -28,7 +28,7 @@
 | :--- | :--- | :--- |
 | `ID` | `5cf0b418-1a9d-4eeb-9830-ac6c97a9bb09` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
 | `AID` | `64` | 为进一步防止被探测所设额外 ID，即 AlterID，范围为 0 至 65535 |
-| `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
+| `WSPATH` | `/ray` | WebSocket 所使用的 HTTP 协议路径 |
 
 ## 接入 CloudFlare
 
